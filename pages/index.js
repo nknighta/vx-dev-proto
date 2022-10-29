@@ -1,8 +1,9 @@
-import { Link } from "@chakra-ui/react";
+import Router from 'next/router'
 
-export default function Main () {
-    return (
-        <>aaa
-        </>
-    )
+const handler = (path) => {
+    Router.push(path)
 }
+
+export default () => (
+    <button onClick={()=>handler("/sss")}>Click </button>
+)
