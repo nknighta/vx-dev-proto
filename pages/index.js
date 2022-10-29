@@ -1,10 +1,8 @@
-import { ChakraProvider } from "@chakra-ui/react";
-import Title from "./main/Title";
+import { Link } from "@chakra-ui/react";
 
-export default function  Index () {
+export default function Main () {
     return (
-        <ChakraProvider>
-            <Title/>
-        </ChakraProvider>
+        <>aaa
+        </>
     )
 }
