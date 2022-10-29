@@ -1,0 +1,30 @@
+{
+  "name": "v1",
+  "version": "0.1.0",
+  "description": "Download links:",
+  "main": "electron-src/main.js",
+  "scripts": {
+    "dev": " electron .",
+    "next-dev": "next dev",
+    "next-export": "next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.jetbrains.space/varius/v-series/V1.git"
+  },
+  "keywords": [],
+  "author": "nknight amamiya<n.knight.pc0627@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/react": "^2.3.6",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "electron": "^21.2.0",
+    "electron-is-dev": "^2.0.0",
+    "eslint-config-next": "^13.0.0",
+    "framer-motion": "^7.6.2",
+    "next": "^13.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
