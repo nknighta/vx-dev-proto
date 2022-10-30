@@ -1,9 +1,12 @@
-import Router from 'next/router'
+import React from "react";
+import Link from "next/link";
 
-const handler = (path) => {
-    Router.push(path)
+function Index () {
+    return (
+        <div>ssss
+            <Link href={"/Page"}>test</Link>
+        </div>
+    )
 }
 
-export default () => (
-    <button onClick={()=>handler("/sss")}>Click </button>
-)
+export default Index
