@@ -1,11 +1,7 @@
 import './styles/global.css'
-import  Index from './index'
-import { ChakraProvider } from "@chakra-ui/react";
 
-function App () {
-    return<ChakraProvider>
-        <Index/>
-    </ChakraProvider>
+function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />
 }
 
-export default App
+export default MyApp
