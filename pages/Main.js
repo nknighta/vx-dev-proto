@@ -3,7 +3,6 @@ import { ChakraProvider ,
     Box ,
     Button ,
     Center} from '@chakra-ui/react'
-import TimeLinePosts from './Contents/TimeLinePosts'
 import NextLink from 'next/link'
 
 export default function Index() {
