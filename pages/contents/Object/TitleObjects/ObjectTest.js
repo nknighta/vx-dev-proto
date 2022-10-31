@@ -29,9 +29,7 @@ export default function Box1() {
             <color attach="background" args={[0xf5f3fd]} />
             <ambientLight intensity={0.5} />
             <directionalLight intensity={0.5} position={[-10, 10, 10]} />
-                <Draggable>
-                    <Box/>
-                </Draggable>
+                <Box/>
             <OrbitControls/>
         </Canvas>
     );
