@@ -1,16 +1,27 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('path')
 
 function createWindow () {
     const win = new BrowserWindow({
         fullscreen: true,
-        frame: false,
+        frame: true,
         webPreferences: {
             preload: path.join(__dirname, 'preload.js')
         }
     })
     win.webContents.openDevTools();
     win.loadURL('http://localhost:3000/')
+}
+
+function StartLocalhostShell () {
+    ipcMain.handle('shell', async (event, command) =>{
+        try {
+            var start = require('electron');
+
+        }catch (e) {
+            return 'faild...'
+        }
+    })
 }
 
 app.whenReady().then(() => {

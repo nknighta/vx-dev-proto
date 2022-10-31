@@ -4,9 +4,10 @@
   "description": "Download links:",
   "main": "electron-src/main.js",
   "scripts": {
-    "dev": " electron .",
-    "next-dev": "next dev",
-    "next-export": "next export"
+    "next": "next dev",
+     "build": "next build",
+    "export": "next export",
+    "dev": " electron ."
   },
   "repository": {
     "type": "git",
