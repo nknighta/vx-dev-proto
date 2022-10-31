@@ -8,8 +8,6 @@ import {
 } from "@chakra-ui/react";
 
 import Box1 from "../contents/Object/TitleObjects/ObjectTest";
-import {OrbitControls} from "@react-three/drei";
-import {Canvas} from "@react-three/fiber";
 
 
 // next page is MainGame

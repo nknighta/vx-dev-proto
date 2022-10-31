@@ -1,7 +1,6 @@
 import { useState, useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import Draggable from "./Drag";
 const Box = () => {
     const ref = useRef(null);
     const [isHovered, setIsHovered] = useState(false);
