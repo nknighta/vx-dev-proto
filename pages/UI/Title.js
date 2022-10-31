@@ -6,7 +6,11 @@ import {
     Text,
     Container, Flex, Button
 } from "@chakra-ui/react";
-import TitleObjectIndex from '../contents/Object/TitleObjects/ObjectIndex'
+
+import Box1 from "../contents/Object/TitleObjects/ObjectTest";
+import {OrbitControls} from "@react-three/drei";
+import {Canvas} from "@react-three/fiber";
+
 
 // next page is MainGame
 
@@ -26,7 +30,7 @@ export default function Title (){
                         </Link>
                     </Box>
                     <Box bgColor={'red'}>
-                        <TitleObjectIndex/>
+                        <Box1/>
                     </Box>
                 </Flex>
             </Box>

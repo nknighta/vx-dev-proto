@@ -1,6 +1,6 @@
 import React from "react";
 import { extend, useThree } from "@react-three/fiber";
-import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+import { OrbitControls } from "@react-three/fiber";
 
 extend({ OrbitControls });
 
