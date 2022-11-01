@@ -1,11 +1,9 @@
-import Title from './UI/Title'
 import { ChakraProvider } from "@chakra-ui/react";
-
+import V1 from './release/V1'
 export default function Index() {
-
     return (
             <ChakraProvider>
-                <Title/>
+                <V1/>
             </ChakraProvider>
     )
 }
