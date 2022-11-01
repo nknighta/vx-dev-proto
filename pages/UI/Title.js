@@ -37,6 +37,7 @@ export default function Title (){
                 <GridItem colSpan={2} bg='papayawhip' />
                 <GridItem colSpan={4} bg='tomato' />
             </Grid>
+
         </ChakraProvider>
     )
 }

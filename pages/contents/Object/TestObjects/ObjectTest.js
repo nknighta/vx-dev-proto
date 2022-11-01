@@ -58,7 +58,7 @@ const Box3 = (props) => {
     )
 }
 
-export default function Box1() {
+export default function MainDisplay() {
     const ObjectLayer = {
         position: 'absolute',
     }
