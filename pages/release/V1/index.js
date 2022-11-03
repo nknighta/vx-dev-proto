@@ -19,7 +19,7 @@ export default function  V1 () {
                             <TesterButton name={'Game'} link={'./release/V1/Game/A1'}/>
                         </Center>
                         <Center>
-                            <TesterButton name={'aaa'}/>
+                            <TesterButton name={'Analytics'} link={'./release/V1//Analytics/Analytics'}/>
                         </Center>
                     </GridItem>
                     <GridItem w='100%' h='600' bg='blue.500' bgImage="url('https://pbs.twimg.com/profile_images/1554384225050427398/Hik4RTG8_400x400.jpg')"
