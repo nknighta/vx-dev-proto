@@ -1,4 +1,5 @@
 import React,{useEffect} from 'react'
+import init from '../../json/init.json' assert {type : 'json'};
 
 const Canvas = ({children},{props}) =>{
     useEffect(() => {
@@ -6,6 +7,19 @@ const Canvas = ({children},{props}) =>{
             // constructor is Initialization of object
 
             initShape (args) {
+                var box = document.getElementById('canvas');
+                let x = args[0];
+                let y = args[1];
+                let w = args[2];
+                let h = args[3];
+                let color = args[4];
+                var ctx = canvas.getContext('2d');
+                ctx.fillStyle = color;
+                ctx.fillRect(x, y, w, h);
+            }
+
+
+            initShape2 (args) {
                 var box = document.getElementById('canvas');
                 let x = args[0];
                 let y = args[1];
@@ -32,11 +46,12 @@ const Canvas = ({children},{props}) =>{
         // x-padding,y-padding, width,height,color
 
         let c = new ObjectInit();
-        let text = 'do you like oppai?'
+        let text = 'do you like ?'
         c.initShape([20,60,222,296,'#226']);
         c.initShape([120,100,200,200,'#000']);
         c.initShape([10,40,222,256,'#926']);
         c.initText(['21px serif', text,50,20]);
+        c.initShape2([init.polygon.x,init.polygon.y,init.polygon.w,init.polygon.h,init.polygon.color])
     })
     // object output
     return(
