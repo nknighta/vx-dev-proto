@@ -10,7 +10,7 @@ function createWindow () {
         }
     })
     win.webContents.openDevTools();
-    win.loadURL('http://localhost:3000/')
+    win.loadURL('https://www.variussoftware.com/')
 }
 
 function StartLocalhostShell () {
