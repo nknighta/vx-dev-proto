@@ -32,7 +32,7 @@ const Canvas = ({children},{props}) =>{
         // x-padding,y-padding, width,height,color
 
         let c = new ObjectInit();
-        let text = 'do you like oppai?'
+        let text = 'do you like VR?'
         c.initShape([20,60,222,296,'#226']);
         c.initShape([120,100,200,200,'#000']);
         c.initShape([10,40,222,256,'#926']);
